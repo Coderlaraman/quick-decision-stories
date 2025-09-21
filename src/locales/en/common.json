@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "Quick Decision Stories",
+    "subtitle": "Make quick decisions in interactive stories"
+  },
+  "navigation": {
+    "home": "Home",
+    "stories": "Stories",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "backToLogin": "Back to login",
+    "createAccount": "Create Account",
+    "sendLink": "Send Link",
+    "registrationSuccess": "Registration Successful",
+    "registrationSuccessTitle": "Registration successful!",
+    "verificationEmailSent": "We have sent a verification link to:",
+    "nextSteps": "Next steps",
+    "checkInbox": "Check your email inbox",
+    "findVerificationEmail": "Look for the verification email (also check spam/promotions)",
+    "clickVerificationLink": "Click on the verification link",
+    "returnToLogin": "Return here to log in",
+    "goToLogin": "Go to Login"
+  },
+  "stories": {
+    "title": "Stories",
+    "availableStories": "Available Stories",
+    "selectStory": "Select a Story",
+    "difficulty": "Difficulty",
+    "duration": "Duration",
+    "endings": "Endings",
+    "startStory": "Start Story",
+    "playAgain": "Play Again",
+    "author": "Author",
+    "progress": "Progress",
+    "playButton": "Play Story",
+    "continueButton": "Continue",
+    "restartButton": "Restart",
+    "backToStories": "Back to Stories",
+    "tryDifferentChoices": "Try Different Choices",
+    "timeUp": "Time's up! The story continues automatically...",
+    "choiceHint": "Hint: This choice may lead to a different ending"
+  },
+  "stats": {
+    "title": "My Statistics",
+    "yourProgress": "Your Progress",
+    "storiesCompleted": "Stories Completed",
+    "endingsUnlocked": "Endings Unlocked",
+    "achievements": "Achievements",
+    "sessionsPlayed": "Sessions Played",
+    "totalPlayTime": "Total Play Time",
+    "achievementsTitle": "Achievements",
+    "explorer": "Explorer",
+    "explorerDescription": "Unlock 3 endings in a single story",
+    "storyteller": "Storyteller",
+    "storytellerDescription": "Complete 3 different stories",
+    "noAchievements": "You haven't unlocked any achievements yet. Keep playing to earn some!",
+    "locked": "Locked",
+    "unlocked": "Unlocked"
+  },
+  "game": {
+    "tryDifferentChoices": "Try Different Choices",
+    "backToStories": "Back to Stories"
+  },
+  "features": {
+    "chooseStory": "Choose Your Story",
+    "chooseStoryDescription": "Select from our collection of interactive stories, each with multiple endings to discover.",
+    "quickDecisions": "Make Quick Decisions",
+    "quickDecisionsDescription": "You have 10 seconds to choose your path. If time runs out, a default choice will be made for you.",
+    "unlockEndings": "Unlock All Endings",
+    "unlockEndingsDescription": "Replay stories to explore different paths and discover all possible endings. Earn achievements along the way!"
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "myStats": "My Statistics",
+    "logout": "Logout"
+  },
+  "common": {
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "close": "Close"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "Historias de Decisión Rápida",
+    "subtitle": "Toma decisiones rápidas en historias interactivas"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "stories": "Historias",
+    "profile": "Perfil",
+    "settings": "Configuración"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "username": "Nombre de Usuario",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "backToLogin": "Volver al inicio de sesión",
+    "createAccount": "Crear Cuenta",
+    "sendLink": "Enviar Enlace",
+    "registrationSuccess": "Registro Exitoso",
+    "registrationSuccessTitle": "¡Registro exitoso!",
+    "verificationEmailSent": "Hemos enviado un enlace de verificación a:",
+    "nextSteps": "Próximos pasos",
+    "checkInbox": "Revisa tu bandeja de entrada de correo electrónico",
+    "findVerificationEmail": "Busca el email de verificación (revisa también spam/promociones)",
+    "clickVerificationLink": "Haz clic en el enlace de verificación",
+    "returnToLogin": "Regresa aquí para iniciar sesión",
+    "goToLogin": "Ir a Iniciar Sesión",
+    "signingOut": "Cerrando sesión...",
+    "close": "Cerrar"
+  },
+  "stories": {
+    "title": "Historias",
+    "availableStories": "Historias Disponibles",
+    "selectStory": "Selecciona una Historia",
+    "difficulty": "Dificultad",
+    "duration": "Duración",
+    "endings": "Finales",
+    "startStory": "Comenzar Historia",
+    "playAgain": "Jugar de Nuevo",
+    "author": "Autor",
+    "progress": "Progreso",
+    "playButton": "Jugar Historia",
+    "continueButton": "Continuar",
+    "restartButton": "Reiniciar",
+    "backToStories": "Volver a Historias",
+    "tryDifferentChoices": "Probar Diferentes Opciones",
+    "timeUp": "¡Se acabó el tiempo! La historia continúa automáticamente...",
+    "choiceHint": "Consejo: Esta elección puede llevar a un final diferente"
+  },
+  "stats": {
+    "title": "Mis Estadísticas",
+    "yourProgress": "Tu Progreso",
+    "storiesCompleted": "Historias Completadas",
+    "endingsUnlocked": "Finales Desbloqueados",
+    "achievements": "Logros",
+    "sessionsPlayed": "Sesiones Jugadas",
+    "totalPlayTime": "Tiempo Total de Juego",
+    "achievementsTitle": "Logros",
+    "explorer": "Explorador",
+    "explorerDescription": "Desbloquea 3 finales en una sola historia",
+    "storyteller": "Narrador",
+    "storytellerDescription": "Completa 3 historias diferentes",
+    "noAchievements": "Aún no has desbloqueado ningún logro. ¡Sigue jugando para conseguir algunos!",
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado"
+  },
+  "game": {
+    "tryDifferentChoices": "Probar Diferentes Opciones",
+    "backToStories": "Volver a Historias"
+  },
+  "features": {
+    "chooseStory": "Elige Tu Historia",
+    "chooseStoryDescription": "Selecciona de nuestra colección de historias interactivas, cada una con múltiples finales por descubrir.",
+    "quickDecisions": "Toma Decisiones Rápidas",
+    "quickDecisionsDescription": "Tienes 10 segundos para elegir tu camino. Si se acaba el tiempo, se tomará una decisión por defecto.",
+    "unlockEndings": "Desbloquea Todos los Finales",
+    "unlockEndingsDescription": "¡Repite las historias para explorar diferentes caminos y descubrir todos los finales posibles. Gana logros en el camino!"
+  },
+  "userMenu": {
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "myStats": "Mis Estadísticas",
+    "logout": "Cerrar Sesión"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "processing": "Procesando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "finish": "Finalizar"
+  }
+}
