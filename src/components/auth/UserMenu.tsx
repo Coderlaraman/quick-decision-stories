@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { User, LogOut, Settings, Trophy, ChevronDown } from 'lucide-react';
+import { useState } from 'react';
+import { User, LogOut, Settings, Trophy, ChevronDown, Crown, BarChart3, PenTool, Shield, CreditCard, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
 import { logger, LogCategory } from '../../utils/logger';
 
@@ -98,29 +99,59 @@ export function UserMenu({ className = '' }: UserMenuProps) {
 
             {/* Menu Items */}
             <div className="py-1">
-              <button
-                onClick={() => {
-                  setIsOpen(false);
-                  // TODO: Implementar navegación a perfil
-                  logger.info(LogCategory.USER, 'Navigate to profile');
-                }}
+              <Link
+                to="/profile"
+                onClick={() => setIsOpen(false)}
                 className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
               >
                 <Settings className="w-4 h-4" />
                 {t('userMenu.settings')}
-              </button>
+              </Link>
 
-              <button
-                onClick={() => {
-                  setIsOpen(false);
-                  // TODO: Implementar navegación a estadísticas
-                  logger.info(LogCategory.USER, 'Navigate to stats');
-                }}
+              <Link
+                to="/stats"
+                onClick={() => setIsOpen(false)}
                 className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
               >
-                <Trophy className="w-4 h-4" />
+                <BarChart3 className="w-4 h-4" />
                 {t('userMenu.myStats')}
-              </button>
+              </Link>
+
+              <Link
+                to="/leaderboard"
+                onClick={() => setIsOpen(false)}
+                className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+              >
+                <Crown className="w-4 h-4" />
+                {t('userMenu.leaderboard')}
+              </Link>
+
+              <Link
+                to="/practice"
+                onClick={() => setIsOpen(false)}
+                className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+              >
+                <PenTool className="w-4 h-4" />
+                {t('userMenu.practice')}
+              </Link>
+
+              <Link
+                to="/admin"
+                onClick={() => setIsOpen(false)}
+                className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+              >
+                <Shield className="w-4 h-4" />
+                {t('userMenu.admin')}
+              </Link>
+
+              <Link
+                to="/subscription"
+                onClick={() => setIsOpen(false)}
+                className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+              >
+                <CreditCard className="w-4 h-4" />
+                {t('userMenu.subscription')}
+              </Link>
             </div>
 
             {/* Separator */}
